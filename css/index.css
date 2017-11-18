@@ -1,5 +1,5 @@
 body{
-  background-image: url("img/main_image.jpg");
+  background-image: url("../img/main_image.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
@@ -90,6 +90,8 @@ body{
    padding : 50px;
 }
 #custom-bottom-contents{
+  padding-right: 0;
+  padding-left: 0;
   background-color: #777777
 }
 /*img hover effect css 시작입니다.*/
@@ -207,10 +209,11 @@ figure.snip1200.hover p {
 .carousel .item img{
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
 }
 .carousel-caption{
-  color:black;
-  text-shadow: 0 0 1px gray;
+  color:white;
+  text-shadow: 0 0 2px gray;
 }
 .carousel-control.left, .carousel-control.right {
     background-image: none
@@ -228,7 +231,7 @@ footer{
 
 /*Card css 시작입니다.*/
 section{float:left;width:100%;padding:30px 0; position:relative; overflow:hidden;}
-section:before{content:"";position:absolute; width:110%; height:100%;  background:url("img/bottom_img.jpeg") no-repeat 0 0; background-size:cover; filter: blur(10px); z-index:0; transform: scale(2);-ms-transform: scale(2); -webkit-transform: scale(2);}
+section:before{content:"";position:absolute; width:110%; height:100%;  background:url("../img/bottom_img.jpeg") no-repeat 0 0; background-size:cover; filter: blur(10px); z-index:0; transform: scale(2);-ms-transform: scale(2); -webkit-transform: scale(2);}
 .btn-default{background:#DFC717; color:#fff; font-weight:700; text-shadow:1px 1px 0 rgba(0,0,0,0.2); font-size:14px;}
 .card{box-shadow:2px 2px 20px rgba(0,0,0,0.3); border:none; margin-bottom:30px;}
 .card-01 .card-body{position:relative;  padding:20px; padding-top:40px; text-align: center; background-color: #e7e7e7;}
@@ -240,7 +243,7 @@ section:before{content:"";position:absolute; width:110%; height:100%;  backgroun
 
 /*반응형 웹을 위한 Media 태그 시작입니다.*/
 @media (max-width: 767px) {
-  body{ background-size : 80%; background-image: url("img/main_image_mobile.jpg");}
+  body{ background-size : 80%; background-image: url("../img/main_image_mobile.jpg");}
   #custom-jumbotron{height: 230px;}
   #custom-jumbotron p h5{font-size: 20px;}
   #custom-4box-glyphicon1, #custom-4box-glyphicon3{float:left; padding:15px;}
@@ -265,7 +268,7 @@ section:before{content:"";position:absolute; width:110%; height:100%;  backgroun
 /*Parcitle ground 플러그인 시작입니다.*/
 #particles {
   width: 100%;
-  height: 400px;
+  height: 250px;
   position: relative;
   overflow: hidden;
   background: #e7e7e7;

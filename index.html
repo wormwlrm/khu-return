@@ -17,7 +17,8 @@
     <!-- #f9f9f9 #ecf0f1 ##d3d7d7 #aeb1b1-->
     <link href="css/index.css" rel="stylesheet">
   </head>
-  <body oncontextmenu="return false" ondragstart="return false" onselectstart="return false">
+<!-- oncontextmenu="return false" ondragstart="return false" onselectstart="return false" -->
+  <body>
     <header>
       <nav class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
@@ -85,7 +86,7 @@
         <p><a class="btn btn-primary btn-lg" href="#" role="button" id="custom-main-login-button">로그인</a></p>
       </div>
     </div>
-    <div id="particles" style="height : 250px;">
+    <div id="particles">
       <section class="container-fluid about">
         <div class="container parallax-window " data-parallax="scroll" data-image-src="/images/parallax.jpg">
           <div class="row">
@@ -188,21 +189,21 @@
       <!-- Wrapper for slides -->
       <div class="carousel-inner">
         <div class="item active">
-          <img src="img/sub_image_6.jpg" alt="Chania">
+          <img src="img/sub_image_6.jpg" alt="Activity1">
           <div class="carousel-caption">
             <h3>캐러샐</h3>
             <p>앙 목마띠</p>
           </div>
         </div>
         <div class="item">
-          <img src="img/sub_image_4.jpg" alt="Chicago">
+          <img src="img/sub_image_4.jpg" alt="Activity2">
           <div class="carousel-caption">
             <h3>활동 너무 오지는 부분</h3>
             <p>실적 너무 지리는 각 </p>
           </div>
         </div>
         <div class="item">
-          <img src="img/sub_image_3.jpg" alt="New York">
+          <img src="img/sub_image_3.jpg" alt="Activity3">
           <div class="carousel-caption">
             <h3>인즈엉?</h3>
             <p>노인정</p>
@@ -281,8 +282,7 @@
               dotColor: '#8F8AFF',
               lineColor: '#B3AEFF'
           });
-          var intro = document.getElementById('intro');
-          intro.style.marginTop = -intro.offsetHeight / 2 + 'px';
+          var intro = document.getElementById('intro');          
       }, false);
     </script>
     <script>
