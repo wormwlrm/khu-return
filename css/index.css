@@ -92,6 +92,7 @@ body{
 #custom-bottom-contents{
   background-color: #777777
 }
+/*img hover effect css 시작입니다.*/
 figure.snip1200 {
   position: relative;
   float: left;
@@ -198,6 +199,8 @@ figure.snip1200.hover p {
   -webkit-transition-delay: 0.35s;
   transition-delay: 0.35s;
 }
+/*image hover effect css 종료입니다.*/
+/*carousel css 시작입니다.*/
 .carousel .item{
   background-color: white;
 }
@@ -215,15 +218,17 @@ figure.snip1200.hover p {
 .carousel .glyphicon{
   color: #aeb1b1;
 }
+/*carousel css 종료입니다.*/
+
 footer{
   background-color: #676767;
   text-align: center;
   padding: 20px;
 }
 
+/*Card css 시작입니다.*/
 section{float:left;width:100%;padding:30px 0; position:relative; overflow:hidden;}
 section:before{content:"";position:absolute; width:110%; height:100%;  background:url("img/bottom_img.jpeg") no-repeat 0 0; background-size:cover; filter: blur(10px); z-index:0; transform: scale(2);-ms-transform: scale(2); -webkit-transform: scale(2);}
-
 .btn-default{background:#DFC717; color:#fff; font-weight:700; text-shadow:1px 1px 0 rgba(0,0,0,0.2); font-size:14px;}
 .card{box-shadow:2px 2px 20px rgba(0,0,0,0.3); border:none; margin-bottom:30px;}
 .card-01 .card-body{position:relative;  padding:20px; padding-top:40px; text-align: center; background-color: #e7e7e7;}
@@ -231,6 +236,9 @@ section:before{content:"";position:absolute; width:110%; height:100%;  backgroun
 .card-01 .badge-box .glyphicon{background:#DFC717; color:#fff; border-radius:50%;  width:50px; height:50px; line-height:50px; text-align:center; font-size:20px;}
 .card-01.height-fix{height:455px; overflow:hidden;}
 .card-img-top{width: 100%}
+/*Card css 종료입니다.*/
+
+/*반응형 웹을 위한 Media 태그 시작입니다.*/
 @media (max-width: 767px) {
   body{ background-size : 80%; background-image: url("img/main_image_mobile.jpg");}
   #custom-jumbotron{height: 230px;}
@@ -252,6 +260,9 @@ section:before{content:"";position:absolute; width:110%; height:100%;  backgroun
     #custom-main-margin{margin-top: 80px;}
     #custom-main-login-button{margin-top: 60px;}
 }
+/*Media 태그 종료입니다.*/
+
+/*Parcitle ground 플러그인 시작입니다.*/
 #particles {
   width: 100%;
   height: 400px;
@@ -274,3 +285,4 @@ section.about p {
   text-align: center;
   font-weight: 300;
 }
+/*Particle ground 플러그인 종료입니다.*/
