@@ -33,5 +33,6 @@
 ========================================================
 map을 footer 요소에서 뺐습니다.
 
+index.css footer  에서background-color 
 template2: template + footer
 template3: template + footer + 내용입력상자
