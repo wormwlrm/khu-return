@@ -1,5 +1,6 @@
 ﻿footer {
-text-color:white;
+    position:fixed;
+    text-color:white;
     bottom:0;
     width:100%;
     height:auto;   
