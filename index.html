@@ -8,7 +8,6 @@
     <title>RETURN</title>
     <!-- 부트스트랩 -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/footer.css" rel="stylesheet">
     <!-- IE8 에서 HTML5 요소와 미디어 쿼리를 위한 HTML5 shim 와 Respond.js -->
     <!-- WARNING: Respond.js 는 당신이 file:// 을 통해 페이지를 볼 때는 동작하지 않습니다. -->
     <!--[if lt IE 9]>
@@ -17,6 +16,7 @@
     <![endif]-->
     <!-- #f9f9f9 #ecf0f1 ##d3d7d7 #aeb1b1-->
     <link href="css/index.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
   </head>
 <!-- oncontextmenu="return false" ondragstart="return false" onselectstart="return false" -->
   <body>
@@ -79,12 +79,12 @@
     </header>
     <div class="container-fluid">
       <div class="jumbotron" id="custom-jumbotron">
-        <p id="custom-main-margin">
+        <p id="custom-jumbotron-p">
           <h5>Since <span class="glyphicon glyphicon-search" aria-hidden="true"></span> 1987</h5>
           <h1>새로운 출발</h1>
           <h5>KYUNGHEE UNIV. COMPUTER ENGINEERING</h5>
         </p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button" id="custom-main-login-button">로그인</a></p>
+        <p><a class="btn btn-primary btn-lg" href="#" role="button" id="custom-jumbotron-login-button">로그인</a></p>
       </div>
     </div>
     <div id="particles">
@@ -100,9 +100,9 @@
     </div>
     <div class="container-fluid" id="custom-main-contents">
       <div class="row" id="custom-4box">
-        <div class="col-sm-4"><h1 id=custom-4box-h1><span class="glyphicon glyphicon-education" aria-hidden="true" id="custom-4box-glyphicon1"></span></h1><p>RETURN은 경희대학교 국제캠퍼스 전자정보대학에 위치한 컴퓨터공학과 학술동아리입니다.</p></div>
-        <div class="col-sm-4"><h1 id=custom-4box-h1><span class="glyphicon glyphicon-search" aria-hidden="true" id="custom-4box-glyphicon2"></span></h1><p>RETURN은 게임 개발(겸 플레이)에 주로 관심을 갖고 있습니다.</p></div>
-        <div class="col-sm-4"><h1 id=custom-4box-h1><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" id="custom-4box-glyphicon3"></span></h1><p>RETURN에서는 다양한 행사를 통해 동아리원들의 친목을 도모하고 있습니다.</p></div>
+        <div class="col-sm-4"><h1 id=custom-4box-h1><span class="glyphicon glyphicon-education" aria-hidden="true" id="custom-4box-glyphicon1"></span></h1><p><br>RETURN은 경희대학교 국제캠퍼스 전자정보대학에 위치한 컴퓨터공학과 학술동아리입니다.</p></div>
+        <div class="col-sm-4"><h1 id=custom-4box-h1><span class="glyphicon glyphicon-search" aria-hidden="true" id="custom-4box-glyphicon2"></span></h1><p><br>RETURN은 게임 개발(겸 플레이)에 주로 관심을 갖고 있습니다.</p></div>
+        <div class="col-sm-4"><h1 id=custom-4box-h1><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true" id="custom-4box-glyphicon3"></span></h1><p><br>RETURN에서는 다양한 행사를 통해 동아리원들의 친목을 도모하고 있습니다.</p></div>
       </div>
       <div class="col-sm-12" id="custom-5box"><h2 id="custom-5box-title">RETURN에서는 어떤 활동들을 하나요?</h2></div>
       <div class="row" id="custom-8box">
@@ -263,37 +263,38 @@
         </div>
       </section>
     </div>
-  <div id="map"></div>
-  
-  <footer>
-<div class="container-fluid">
-<div class="row">
-<div class="col-sm-4 f1">
-<a href="http://returns.co.kr/"><h2 id="footN">RETURN</h2></a><br>
-<a href="./index.html">홈</a>
-<a href="./contact.html">연락</a>
-<a href="./privacy.html">개인정책</a><br>
-<p style="color:gray">© 2017 by Return, Created By </p>
-</div>
-<div class="col-sm-4 f2"><br>
-<span class="glyphicon glyphicon-map-marker"> 경기도 용인시 기흥구 영덕동 덕영대로 1732<br>  전자정보대학 241-2</span><br><br>
-<span class="glyphicon glyphicon-phone-alt"> 031-201-3114</span><br>
-
-</div>
-<div class="col-sm-4 f3"> <br>
-<span class="glyphicon glyphicon-education">
-	<a href="http://sambang.khu.ac.kr/servlets/main.html">수강신청</a></span></p><br>
-<span class="glyphicon glyphicon-education">
-	<a href="https://khuis.khu.ac.kr/">종합정보시스템</a></span></p><br>
-<span class="glyphicon glyphicon-education">
-	<a href="https://klas.khu.ac.kr/">KLAS</a></span></p><br>
-</div>
-</div>
-</div>
-</footer>
+    <div class="col-sm-12" id="custom-17box">
+      <h2 id="custom-17box-title">궁금하신 사항이 있다면 언제든 연락주세요.</h2>
+    </div>
+    <div id="map"></div>
 
 
-
+    <footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
+            <h2 id="custom-footer-title">RETURN</h2>
+            <a href="./index.html">홈</a>
+            <a href="./contact.html">연락</a>
+            <a href="mailto:name@email.com">Mail</a>
+            <a href="./privacy.html">개인정책</a><br>
+            <p style="color:gray">© 2017 by Return, Created By </p>
+          </div>
+          <div class="col-sm-4"><br>
+            <span class="glyphicon glyphicon-map-marker"> 경기도 용인시 기흥구 영덕동 덕영대로 1732 전자정보대학 241-2</span>
+            <span class="glyphicon glyphicon-phone-alt"> 031-201-3114</span><br>
+          </div>
+          <div class="col-sm-4"><br>
+            <span class="glyphicon glyphicon-education">
+            	<a href="http://sambang.khu.ac.kr/servlets/main.html">수강신청</a></span><br>
+            <span class="glyphicon glyphicon-education">
+            	<a href="https://khuis.khu.ac.kr/">종합정보시스템</a></span><br>
+            <span class="glyphicon glyphicon-education">
+            	<a href="https://klas.khu.ac.kr/">KLAS</a></span><br>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 
     <!-- jQuery (부트스트랩의 자바스크립트 플러그인을 위해 필요합니다) -->

@@ -5,6 +5,7 @@ body{
   background-position: top;
   background-size: 90%;
   background-color: #e7e7e7;
+  word-break: keep-all;
 }
 .container-fluid{
   margin-right: 20px;
@@ -34,7 +35,7 @@ body{
   background-color: white;
   text-align: justify;
 }
-#custom-main-login-button{
+#custom-jumbotron-login-button{
   background-color: rgba(0, 0, 0, 0);
   border : 3px solid white;
   border-radius: 0px;
@@ -56,7 +57,7 @@ body{
 #custom-4box-h1{
   font-size: 8rem;
 }
-#custom-4box-title, #custom-5box-title, #custom-12box-title, #custom-13box-title{
+#custom-4box-title, #custom-5box-title, #custom-12box-title, #custom-13box-title, #custom-17box-title{
   text-align:center;
   padding: 30px 30px;
   margin-top: 0;
@@ -88,6 +89,12 @@ body{
 }
 #custom-14box, #custom-15box, #custom-16box{
    padding : 50px;
+}
+#custom-17box{
+  color:white;
+  bottom:0;
+  height:auto;
+  background-color:#292c2f;
 }
 #custom-bottom-contents{
   padding-right: 0;
@@ -259,8 +266,8 @@ section:before{content:"";position:absolute; width:110%; height:100%;  backgroun
 @media (min-width: 1200px) {
     #custom-jumbotron{height: 600px;}
     #custom-jumbotron h5{font-size: 30px;}
-    #custom-main-margin{margin-top: 80px;}
-    #custom-main-login-button{margin-top: 60px;}
+    #custom-jumbotron-p{margin-top: 80px;}
+    #custom-jumbotron-login-button{margin-top: 60px;}
 }
 /*Media 태그 종료입니다.*/
 

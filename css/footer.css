@@ -1,19 +1,22 @@
-﻿footer {
-   
-    text-color:white;
+﻿footer{
+    color:white;
     bottom:0;
-    width:100%;
-    height:auto;   
+    height:auto;
     background-color:#292c2f;
-
 }
-span{color:white;}
-a{text-decoration:underline;}
-a{font-weight: bold;
+footer a, footer span{
+  font-weight: bold;
+  margin-top: 10px;
 }
-a:link{color:white;}
-a:visited { color: white;}
-#footN{font: normal 36px 'Cookie', cursive;}
+a:link{
+  color:white;
+}
+a:visited {
+  color: white;
+}
+#custom-footer-title{
+  font: normal 36px 'Cookie', cursive;
+}
 .div.Bfooter{
-background-image:none;
+  background-image:none;
 }
