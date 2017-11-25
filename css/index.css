@@ -3,6 +3,7 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
+  background-size: 96%;
 }
 #map {
   height: 400px;
