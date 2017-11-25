@@ -1,0 +1,10 @@
+.container-fluid{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.navbar-fixed-top{
+  border-bottom-width: 0px;
+}
+#custom-logo{
+  padding: 10px;
+}

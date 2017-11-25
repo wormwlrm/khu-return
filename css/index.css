@@ -7,19 +7,9 @@ body{
   background-color: #e7e7e7;
   word-break: keep-all;
 }
-.container-fluid{
-  margin-right: 20px;
-  margin-left: 20px;
-}
 #map {
   height: 400px;
   width: 100%;
-}
-.navbar-fixed-top{
-  border-bottom-width: 0px;
-}
-#custom-logo{
-  padding: 10px;
 }
 #custom-jumbotron{
   background-color: rgba(0, 0, 0, 0);
