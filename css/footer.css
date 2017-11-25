@@ -3,6 +3,8 @@
     bottom:0;
     height:auto;
     background-color:#292c2f;
+    text-align: center;
+    padding: 20px;
 }
 footer a, footer span{
   font-weight: bold;

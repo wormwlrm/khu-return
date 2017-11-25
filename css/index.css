@@ -3,9 +3,6 @@ body{
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: top;
-  background-size: 90%;
-  background-color: #e7e7e7;
-  word-break: keep-all;
 }
 #map {
   height: 400px;
@@ -219,11 +216,6 @@ figure.snip1200.hover p {
   color: #aeb1b1;
 }
 /*carousel css 종료입니다.*/
-
-footer{
-  text-align: center;
-  padding: 20px;
-}
 
 /*Card css 시작입니다.*/
 section{float:left;width:100%;padding:30px 0; position:relative; overflow:hidden;}
