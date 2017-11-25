@@ -4,31 +4,30 @@
 <!--footer 부분 입력-->
 
 <footer>
-<div class="container-fluid">
-<div class="row">
-<div class="col-sm-4 f1">
-<a href="http://returns.co.kr/"><h2 id="footN">RETURN</h2></a><br>
-<a href="#">홈</a>
-<a href="#">연락</a>
-<a href="#">개인정책</a><br>
-<p style="color:gray">© 2017 by Return, Created By </p>
-</div>
-<div class="col-sm-4 f2"><br>
-<span class="glyphicon glyphicon-map-marker"> 경기도 용인시 기흥구 영덕동 덕영대로 1732<br>  전자정보대학 241-2</span><br><br>
-<span class="glyphicon glyphicon-phone-alt"> 031-201-3114</span><br>
-
-</div>
-<div class="col-sm-4 f3"> <br>
-<span class="glyphicon glyphicon-education">
-	<a href="http://sambang.khu.ac.kr/servlets/main.html">수강신청</a></span></p><br>
-<span class="glyphicon glyphicon-education">
-	<a href="https://khuis.khu.ac.kr/">종합정보시스템</a></span></p><br>
-<span class="glyphicon glyphicon-education">
-	<a href="https://klas.khu.ac.kr/">KLAS</a></span></p><br>
-</div>
-</div>
-</div>
-</footer>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4">
+            <h2 id="custom-footer-title">RETURN</h2>
+            <a href="./index.html">홈</a>
+            <a href="mailto:name@email.com">Mail</a>
+            <a href="./privacy.html">개인정책</a>
+            <p style="color:gray">© 2017 by Return, Created By </p>
+          </div>
+          <div class="col-sm-4"><br>
+            <span class="glyphicon glyphicon-map-marker"> 경기도 용인시 기흥구 영덕동 덕영대로 1732 전자정보대학 241-2</span><br>
+            <span class="glyphicon glyphicon-phone-alt"> 031-201-3114</span><br>
+          </div>
+          <div class="col-sm-4"><br>
+            <span class="glyphicon glyphicon-education">
+            	<a href="http://sambang.khu.ac.kr/servlets/main.html">수강신청</a></span><br>
+            <span class="glyphicon glyphicon-education">
+            	<a href="https://khuis.khu.ac.kr/">종합정보시스템</a></span><br>
+            <span class="glyphicon glyphicon-education">
+            	<a href="https://klas.khu.ac.kr/">KLAS</a></span><br>
+          </div>
+        </div>
+      </div>
+    </footer>
 
 ========================================================
 map을 footer 요소에서 뺐습니다.
