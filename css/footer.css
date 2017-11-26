@@ -9,12 +9,16 @@
 footer a, footer span{
   font-weight: bold;
   margin-top: 10px;
+  text-decoration: none;
 }
 a:link{
   color:white;
 }
 a:visited {
   color: white;
+}
+a:hover, a:focus{
+  text-decoration: none;
 }
 #custom-footer-title{
   font: normal 36px 'Cookie', cursive;
