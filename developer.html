@@ -16,6 +16,7 @@
     <![endif]-->
     <!-- #f9f9f9 #ecf0f1 ##d3d7d7 #aeb1b1-->
     <link href="css/header.css" rel="stylesheet">
+    <link href="css/developer.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
   </head>
 <!-- oncontextmenu="return false" ondragstart="return false" onselectstart="return false" -->
@@ -86,7 +87,7 @@
       </nav>
     </header>
     <div class="container-fluid">
-    <br /><br /><br /><br /><br />
+
       <div class="row">
         <div class="col-sm-4">
         <center>
@@ -95,6 +96,40 @@
         <em>click my face for more</em>
         </center>
         </div>
+        <!-- Modal -->
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+                        <h4 class="modal-title" id="myModalLabel">More About Joe</h4>
+                        </div>
+                    <div class="modal-body">
+                        <center>
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle"></a>
+                        <h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+                        <span><strong>Skills: </strong></span>
+                            <span class="label label-warning">HTML5/CSS</span>
+                            <span class="label label-info">Adobe CS 5.5</span>
+                            <span class="label label-info">Microsoft Office</span>
+                            <span class="label label-success">Windows XP, Vista, 7</span>
+                        </center>
+                        <hr>
+                        <center>
+                        <p class="text-left"><strong>Bio: </strong><br>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.</p>
+                        <br>
+                        </center>
+                    </div>
+                    <div class="modal-footer">
+                        <center>
+                        <button type="button" class="btn btn-default" data-dismiss="modal">I've heard enough about Joe</button>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <div class="col-sm-4">
         <center>
         <a href="#aboutModal" data-toggle="modal" data-target="#myModal"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" class="img-circle"></a>
@@ -123,13 +158,13 @@
                     </div>
                 <div class="modal-body">
                     <center>
-                    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" class="img-circle"></a>
-                    <h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
-                    <span><strong>Skills: </strong></span>
-                        <span class="label label-warning">HTML5/CSS</span>
-                        <span class="label label-info">Adobe CS 5.5</span>
-                        <span class="label label-info">Microsoft Office</span>
-                        <span class="label label-success">Windows XP, Vista, 7</span>
+                      <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" class="img-circle">
+                      <h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+                      <span><strong>Skills: </strong></span>
+                          <span class="label label-warning">HTML5/CSS</span>
+                          <span class="label label-info">Adobe CS 5.5</span>
+                          <span class="label label-info">Microsoft Office</span>
+                          <span class="label label-success">Windows XP, Vista, 7</span>
                     </center>
                     <hr>
                     <center>
@@ -189,15 +224,16 @@
             </div>
         </div>
     </div>
+
     <footer>
       <div class="container-fluid">
         <div class="row">
           <div class="col-sm-4">
             <h2 id="custom-footer-title">RETURN</h2>
             <a href="./index.html">홈</a>
-            <a href="mailto:name@email.com">Mail</a>
-            <a href="./privacy.html">개인정책</a>
-            <p style="color:gray">© 2017 by Return, Created By </p>
+            <a href="mailto:name@email.com">메일</a>
+            <a href="./rule.html#privacy">개인정보처리방침</a>
+            <p style="color:gray">© 2017 by Return, Created By Return Web Developer</p>
           </div>
           <div class="col-sm-4"><br>
             <span class="glyphicon glyphicon-map-marker"> 경기도 용인시 기흥구 영덕동 덕영대로 1732 전자정보대학 241-2</span><br>
@@ -205,11 +241,11 @@
           </div>
           <div class="col-sm-4"><br>
             <span class="glyphicon glyphicon-education">
-              <a href="http://sambang.khu.ac.kr/servlets/main.html">수강신청</a></span><br>
+            	<a href="http://sambang.khu.ac.kr/servlets/main.html">수강신청</a></span><br>
             <span class="glyphicon glyphicon-education">
-              <a href="https://khuis.khu.ac.kr/">종합정보시스템</a></span><br>
+            	<a href="https://khuis.khu.ac.kr/">종합정보시스템</a></span><br>
             <span class="glyphicon glyphicon-education">
-              <a href="https://klas.khu.ac.kr/">KLAS</a></span><br>
+            	<a href="https://klas.khu.ac.kr/">KLAS</a></span><br>
           </div>
         </div>
       </div>

@@ -264,7 +264,7 @@ section:before{content:"";position:absolute; width:110%; height:100%;  backgroun
 }
 @media (min-width: 992px) {
     #custom-jumbotron{height: 400px;}
-    #myCarousel{padding:25px;}
+    #myCarousel{padding:50px;}
     .carousel-control .glyphicon-chevron-left{margin-left: 40px;}
     .carousel-control .glyphicon-chevron-right{margin-right: 40px;}
     .carousel-indicators{margin-bottom: 60px;}
@@ -288,7 +288,7 @@ section:before{content:"";position:absolute; width:110%; height:100%;  backgroun
 section.about {
   position: absolute;
   left: 0;
-  top: 50%;
+  top: 33%;
   padding: 0 20px;
   width: 100%;
   text-align: center;
