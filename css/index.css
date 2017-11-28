@@ -224,6 +224,7 @@ figure.snip1200.hover p {
   color: #aeb1b1;
 }
 #custom-carousel-box{
+  background-color: #e7e7e7;
   margin-right: 0px;
   margin-left: 0px;
 }
@@ -264,16 +265,18 @@ section:before{content:"";position:absolute; width:110%; height:100%;  backgroun
 }
 @media (min-width: 992px) {
     #custom-jumbotron{height: 400px;}
-    #myCarousel{padding:50px;}
-    .carousel-control .glyphicon-chevron-left{margin-left: 40px;}
-    .carousel-control .glyphicon-chevron-right{margin-right: 40px;}
+    #custom-carousel-box{padding:50px;}
+    .carousel-control .glyphicon-chevron-left{margin-left: 40px; }
+    .carousel-control .glyphicon-chevron-right{margin-right: 40px; }
     .carousel-indicators{margin-bottom: 60px;}
+    #custom-4box div p{margin: 0 30px 0 30px;}
 }
 @media (min-width: 1200px) {
     #custom-jumbotron{height: 600px;}
     #custom-jumbotron h5{font-size: 30px;}
     #custom-jumbotron-p{margin-top: 80px;}
     #custom-jumbotron-login-button{margin-top: 60px;}
+    #custom-4box div p{margin: 0 60px 0 60px ;}
 }
 /*Media 태그 종료입니다.*/
 
