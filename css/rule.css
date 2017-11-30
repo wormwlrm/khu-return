@@ -1,5 +1,9 @@
+.container-fluid{
+  margin-right: 0;
+  margin-left: 0;
+}
 body{
-  background-color: #f9f9f9;
+  background-color: #e7e7e7;
 }
 hr{
   border-top: 1px solid #aeb1b1;
