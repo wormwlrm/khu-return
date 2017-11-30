@@ -1,19 +1,36 @@
-﻿
 .responsive-iframe-container {
     position: relative;
-    padding-bottom: 120%;
+    padding-bottom: 70%;
     padding-top: 30px;
+    margin-top: 70px;
     height: 0;
     overflow: auto;
 }
- 
-.responsive-iframe-container iframe,  
-.vresponsive-iframe-container object, 
+.responsive-iframe-container iframe,
+.vresponsive-iframe-container object,
 .vresponsive-iframe-container embed {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 95%;
 }
-
+.container-fluid{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+@media (max-width: 424px){
+  .responsive-iframe-container{padding-bottom: 160%;}
+}
+@media (min-width: 425px) {
+  .responsive-iframe-container{padding-bottom: 110%;}
+}
+@media (min-width: 768px) {
+  .responsive-iframe-container{padding-bottom: 80%;}
+}
+@media (min-width: 992px) {
+  .responsive-iframe-container{padding-bottom: 70%;}
+}
+@media (min-width: 1200px) {
+  .responsive-iframe-container{padding-bottom: 60%;}
+}
