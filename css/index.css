@@ -4,6 +4,7 @@ body{
   background-attachment: fixed;
   background-position: top;
   background-size: 94%;
+  margin-top: 60px;
 }
 h2{
   line-height: 130%;
@@ -16,7 +17,6 @@ h2{
   background-color: rgba(0, 0, 0, 0);
   text-align: center;
   color: #FFF;
-  margin-top: 50px;
 }
 #custom-jumbotron h1, h5{
   color:white;
@@ -70,10 +70,10 @@ h2{
 #custom-12box{
   padding: 0;
 }
-#custom-8box .col-sm-4, #custom-11box .col-sm-4{
+#custom-11box .col-sm-4{
   min-height: 180px;
 }
-#custom-8box div, #custom-11box div{
+#custom-11box div{
   padding: 30px;
   margin-right: auto;
   margin-left: auto;
@@ -122,7 +122,7 @@ figure.snip1200 img {
 }
 figure.snip1200 figcaption {
   position: absolute;
-  top: 45%;
+  top: 38%;
   left: 7%;
   right: 7%;
   bottom: 45%;
@@ -177,6 +177,7 @@ figure.snip1200 p {
   opacity: 0;
   line-height: 1.6em;
   font-size: 0.9em;
+  word-break: normal;
 }
 figure.snip1200 a {
   left: 0;
@@ -203,6 +204,12 @@ figure.snip1200.hover p {
   -webkit-transition-delay: 0.35s;
   transition-delay: 0.35s;
 }
+@media (max-width: 400px){
+  figure.snip1200 h2{font-size: 100%;}
+}
+@media (min-width : 992px) and (max-width: 1200px){
+  figure.snip1200 h2{font-size: 130%;}
+}
 /*image hover effect css 종료입니다.*/
 /*carousel css 시작입니다.*/
 .carousel .item{
@@ -212,6 +219,7 @@ figure.snip1200.hover p {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
+  overflow: hidden;
 }
 .carousel-caption{
   color:white;
@@ -237,7 +245,7 @@ figure.snip1200.hover p {
 
 /*Card css 시작입니다.*/
 section{float:left;width:100%;padding:30px 0; position:relative; overflow:hidden;}
-section:before{content:"";position:absolute; width:110%; height:100%;  background:url("../img/bottom_img.jpeg") no-repeat 0 0; background-size:cover; filter: blur(10px); z-index:0; transform: scale(2);-ms-transform: scale(2); -webkit-transform: scale(2);}
+section:before{content:"";position:absolute; width:110%; height:100%;  background:url("../img/bottom_img.jpeg") no-repeat 0 0; background-size:cover; filter: blur(1.5px); z-index:0; transform: scale(2);-ms-transform: scale(2); -webkit-transform: scale(2);}
 .btn-default{background:#DFC717; color:#fff; font-weight:700; text-shadow:1px 1px 0 rgba(0,0,0,0.2); font-size:14px;}
 .card{box-shadow:2px 2px 20px rgba(0,0,0,0.3); border:none; margin-bottom:30px;}
 .card-01 .card-body{position:relative;  padding:20px; padding-top:40px; text-align: center; background-color: #e7e7e7;}
@@ -253,22 +261,23 @@ section:before{content:"";position:absolute; width:110%; height:100%;  backgroun
 }
 @media (max-width: 767px) {
   body{ background-size : 80%; background-image: url("../img/main_image_mobile.jpg");}
-  #custom-jumbotron{height: 230px;}
+  #custom-jumbotron{height: 250px;}
   #custom-jumbotron p h5{font-size: 20px;}
-  #custom-4box-glyphicon1, #custom-4box-glyphicon2, #custom-4box-glyphicon3{float:left; padding:15px;}
+  #custom-4box-glyphicon1, #custom-4box-glyphicon2, #custom-4box-glyphicon3{float:left; padding:0 15px 0 0;}
   #custom-main-contents{padding : 0;}
   #custom-4box-title{margin-top: 0; margin-bottom: 0;}
   #custom-4box .col-sm-4{height: 100px;}
 }
 @media (min-width: 768px) {
-  #myCarousel{padding:10px;}
+  #myCarousel{padding:40px;}
+  .carousel-indicators{margin-bottom: 30px;}
 }
 @media (min-width: 992px) {
     #custom-jumbotron{height: 400px;}
     #custom-carousel-box{padding:50px;}
     .carousel-control .glyphicon-chevron-left{margin-left: 40px; }
     .carousel-control .glyphicon-chevron-right{margin-right: 40px; }
-    .carousel-indicators{margin-bottom: 60px;}
+    .carousel-indicators{margin-bottom: 50px;}
     #custom-4box div p{margin: 0 30px 0 30px;}
 }
 @media (min-width: 1200px) {
