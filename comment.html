@@ -16,7 +16,6 @@
     <![endif]-->
     <!-- #f9f9f9 #ecf0f1 ##d3d7d7 #aeb1b1-->
     <link href="css/header.css" rel="stylesheet">
-    <link href="css/calendar.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
   </head>
 <!-- oncontextmenu="return false" ondragstart="return false" onselectstart="return false" -->
@@ -32,29 +31,28 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./" id="custom-logo"><img alt="Brand" src="img/logo.png" width="100px"></a>
+            <a class="navbar-brand" href="./index.html" id="custom-logo"><img alt="Brand" src="img/logo.png" width="100px"></a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class=""><a href="./">홈<span class="sr-only">(current)</span></a></li>
+              <li class="active"><a href="./index.html">홈<span class="sr-only">(current)</span></a></li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">소개<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="#">연혁과 임원</a></li>
-                  <li><a href="./rule">회칙과 운영방침</a></li>
+                  <li><a href="./rule.html">회칙과 운영방침</a></li>
                   <li class="divider"></li>
                   <li><a href="https://www.facebook.com/groups/198817620193354/" target="_blank">페이스북</a></li>
                   <li><a href="https://band.us/band/10363979" target="_blank">네이버 밴드</a></li>
                   <li class="divider"></li>
-                  <li><a href="./developer">개발자 정보</a></li>
+                  <li><a href="./developer.html">개발자 정보</a></li>
                 </ul>
               </li>
-              <li class="dropdown active">
+              <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">공지사항<span class="caret"></span></a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="#">공지게시판</a></li>
-                  <li><a href="./calendar">캘린더</a></li>
                   <li><a href="#">월간 소식지</a></li>
                 </ul>
               </li>
@@ -88,9 +86,14 @@
       </nav>
     </header>
     <div class="container-fluid">
-       <div class="responsive-iframe-container">
-         <iframe src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=khu.swcon.author%40gmail.com&amp;color=%232952A3&amp;src=ko.south_korea%23holiday%40group.v.calendar.google.com&amp;color=%23AB8B00&amp;ctz=Asia%2FSeoul" style="border-width:0" frameborder="0" scrolling="no"></iframe>
-        </div>
+      <br /><br /><br /><br />
+
+      <!-- begin wwww.htmlcommentbox.com -->
+       <div id="HCB_comment_box"><a href="http://www.htmlcommentbox.com">HTML Comment Box</a> is loading comments...</div>
+       <link rel="stylesheet" type="text/css" href="//www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0" />
+       <script type="text/javascript" id="hcb"> /*<!--*/ if(!window.hcb_user){hcb_user={};} hcb_user.PAGE="http://lab.khlug.org/kugorang/return/comment.html";(function(){var s=document.createElement("script"), l=hcb_user.PAGE || (""+window.location).replace(/'/g,"%27"), h="//www.htmlcommentbox.com";s.setAttribute("type","text/javascript");s.setAttribute("src", h+"/jread?page="+encodeURIComponent(l).replace("+","%2B")+"&opts=1&num=10&ts=1511884908402");if (typeof s!="undefined") document.getElementsByTagName("head")[0].appendChild(s);})(); /*-->*/ </script>
+      <!-- end www.htmlcommentbox.com -->
+
     </div>
 
     <footer>
@@ -98,10 +101,10 @@
         <div class="row">
           <div class="col-sm-4">
             <h2 id="custom-footer-title">RETURN</h2>
-            <a href="./index">홈</a>
+            <a href="./index.html">홈</a>
             <a href="mailto:name@email.com">메일</a>
-            <a href="./rule#privacy">개인정보처리방침</a>
-            <p style="color:gray">© 2017 by Return, Created By </p>
+            <a href="./rule.html#privacy">개인정보처리방침</a>
+            <p style="color:gray">© 2017 by Return, Created By Return Web Developer</p>
           </div>
           <div class="col-sm-4"><br>
             <span class="glyphicon glyphicon-map-marker"> 경기도 용인시 기흥구 영덕동 덕영대로 1732 전자정보대학 241-2</span><br>
@@ -109,11 +112,11 @@
           </div>
           <div class="col-sm-4"><br>
             <span class="glyphicon glyphicon-education">
-              <a href="http://sambang.khu.ac.kr/servlets/main.html">수강신청</a></span><br>
+            	<a href="http://sambang.khu.ac.kr/servlets/main.html">수강신청</a></span><br>
             <span class="glyphicon glyphicon-education">
-              <a href="https://khuis.khu.ac.kr/">종합정보시스템</a></span><br>
+            	<a href="https://khuis.khu.ac.kr/">종합정보시스템</a></span><br>
             <span class="glyphicon glyphicon-education">
-              <a href="https://klas.khu.ac.kr/">KLAS</a></span><br>
+            	<a href="https://klas.khu.ac.kr/">KLAS</a></span><br>
           </div>
         </div>
       </div>
@@ -122,5 +125,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- 모든 컴파일된 플러그인을 포함합니다 (아래), 원하지 않는다면 필요한 각각의 파일을 포함하세요 -->
     <script src="js/bootstrap.min.js"></script>
+
   </body>
 </html>
