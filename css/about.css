@@ -1,0 +1,163 @@
+.centered{
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.col-lg-6{
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#main{
+  margin: 0;
+  padding: 0;
+}
+
+#title{
+  margin-top: 16px;
+  padding-left: 10px;
+  font-weight: 300;
+}
+
+#Introduce{
+  margin-top: 20px;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+.row .col-lg-1{
+  padding: 0;
+}
+
+#info{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#info .col-sm-4{
+  padding: 0;
+}
+
+.rounded-circle{
+  border-radius: 50%!important;
+}
+
+.circle2 {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+.circle2 p{
+  margin-top: 26px;
+  margin-bottom: 26px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 32px;
+}
+
+#pic{
+  width: 250px;
+  height: 250px;
+  padding: 15px;
+  background-color: #66cc99;
+  margin-bottom: 20px;
+}
+
+#sml{
+  padding: 0;
+}
+
+@media only screen and (min-width: 770px) {
+  .circle2 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+  }
+
+  .circle2 p{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+  }
+
+  .smaller .circle2{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+  }
+
+  .smaller .circle2 p{
+    margin-top: 27px;
+    margin-bottom: 27px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+  }
+
+  #pic{
+    width: 311px;
+    height: 311px;
+    padding: 15px;
+  }
+
+  .smaller #pic{
+    width: 250px;
+    height: 250px;
+    padding: 10px;
+  }
+}
+
+.pos{
+  background-color: #ffe066;
+}
+
+.cof{
+  background-color: #ff4d4d;
+}
+
+.name{
+  background-color: #b3c6ff;
+}
+
+.talk-bubble {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  display: inline-block;
+  position: relative;
+	width: auto;
+	height: auto;
+	background-color: #f2f2f2;
+}
+
+.tri-right.left-top:after{
+	content: ' ';
+	position: absolute;
+	width: 0;
+	height: 0;
+  left: -20px;
+	right: auto;
+  top: 0px;
+	bottom: auto;
+	border: 22px solid;
+	border-color: #f2f2f2 transparent transparent transparent;
+}
+
+.talktext{
+  padding: 1em;
+	text-align: left;
+  line-height: 1.5em;
+}
+.talktext p{
+  /* remove webkit p margins */
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 0em;
+}
