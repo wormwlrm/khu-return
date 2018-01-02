@@ -2,11 +2,6 @@ body{
   margin-top: 60px;
 }
 
-.container-fluid{
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .rounded-circle{
   border-radius: 50% !important;
 }
@@ -31,6 +26,13 @@ body{
 #main{
   margin: 0;
   padding: 0;
+}
+
+.custom-title{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  height : 100px;
+  text-align: center;
 }
 
 .custom-picture{
