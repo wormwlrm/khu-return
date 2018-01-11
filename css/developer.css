@@ -7,10 +7,18 @@ a:focus {
 }
 
 .custom_open_source_image {
-    padding: 40px;
+    padding: 20px;
 }
 
 .custom_open_source_image img{
   border : 2px solid gray;
     width:100%;
+}
+
+.custom-developer{
+  margin-bottom: 50px;
+}
+
+.col-xs-12{
+  margin-bottom: 30px;
 }
