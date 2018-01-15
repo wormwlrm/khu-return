@@ -1,0 +1,7 @@
+body{
+  margin-top: 60px;
+}
+
+.jumbotron{
+  background-image:url("../img/board_background.jpg");
+}
