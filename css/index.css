@@ -258,10 +258,11 @@ section:before{content:"";position:absolute; width:110%; height:100%;  backgroun
 /*반응형 웹을 위한 Media 태그 시작입니다.*/
 @media (max-width: 350px){
   #custom-4box-glyphicon1, #custom-4box-glyphicon2, #custom-4box-glyphicon3{font-size:6rem;}
+  #custom-jumbotron{height: 500px;}
 }
 @media (max-width: 767px) {
   body{ background-size : 80%; background-image: url("../img/main_image_mobile.jpg");}
-  #custom-jumbotron{height: 250px;}
+  #custom-jumbotron{height: 400px;}
   #custom-jumbotron p h5{font-size: 20px;}
   #custom-4box-glyphicon1, #custom-4box-glyphicon2, #custom-4box-glyphicon3{float:left; padding:0 15px 0 0;}
   #custom-main-contents{padding : 0;}
