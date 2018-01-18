@@ -17,7 +17,7 @@
     <!-- #f9f9f9 #ecf0f1 ##d3d7d7 #aeb1b1-->
     <link href="css/header.css" rel="stylesheet">
     <link href="css/footer.css" rel="stylesheet">
-    <link href="css/Bulletin_Board.css" rel="stylesheet">
+    <link href="css/board.css" rel="stylesheet">
   </head>
 <!-- oncontextmenu="return false" ondragstart="return false" onselectstart="return false" -->
   <body>
@@ -32,60 +32,26 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="./index.html" id="custom-logo"><img alt="Brand" src="img/logo.png" width="100px"></a>
+            <a class="navbar-brand" href="./" id="custom-logo"><img alt="Brand" src="img/logo.png" width="100px"></a>
           </div>
           <!-- Collect the nav links, forms, and other content for toggling -->
           <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav">
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">소개<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="./Timeline.html">연혁과 임원</a></li>
-                  <li><a href="./rule.html">회칙과 운영방침</a></li>
-                  <li class="divider"></li>
-                  <li><a href="https://www.facebook.com/groups/198817620193354/" target="_blank">페이스북</a></li>
-                  <li><a href="https://band.us/band/10363979" target="_blank">네이버 밴드</a></li>
-                  <li class="divider"></li>
-                  <li><a href="./developer.html">개발자 정보</a></li>
-                </ul>
-              </li>
-              <li class="dropdown active">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">공지사항<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">공지게시판</a></li>
-                  <li><a href="./calendar.html">캘린더</a></li>
-                  <li><a href="./news1.html">월간 소식지</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">게시판<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">자유게시판</a></li>
-                  <li><a href="#">스터디게시판</a></li>
-                  <li><a href="#">대나무숲</a></li>
-                  <li><a href="#">학·맛·모</a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
-                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">자료실<span class="caret"></span></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="#">프로그래밍 기초</a></li>
-                  <li><a href="#">객체지향프로그래밍</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">자료구조</a></li>
-                  <li><a href="#">설계프로젝트</a></li>
-                  <li class="divider"></li>
-                  <li><a href="#">알고리즘분석</a></li>
-                </ul>
-              </li>
+              <li><a href="./timeline">연혁과 임원</a></li>
+              <li><a href="./rule">회칙</a></li>
+              <li class="active"><a href="./board">월간소식지</a></li>
+              <li><a href="./calendar">캘린더</a></li>
+              <li><a href="./developer">개발자정보</a></li>
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">내 정보</a></li>
+              <li><a href="https://www.facebook.com/groups/198817620193354/" target="_blank">FaceBook</a></li>
+              <li><a href="https://band.us/band/10363979" target="_blank">Band</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
       </nav>
     </header>
+
     <div class="container-fluid">
     <div class="col-md-offset-1 col-md-10">
       <div class = "text-center">
@@ -108,21 +74,21 @@
           <tbody>
             <tr>
               <th scope="row">1</th>
-              <td>2017.09</td>
+              <td><a href="./pdf/201709.pdf">2017년 9월호</a></td>
               <td>김현우</td>
-              <td>2018.01</td>
+              <td>2017.09</td>
             </tr>
             <tr>
               <th scope="row">2</th>
-              <td>2017.10</td>
+              <td><a href="./pdf/201710.pdf">2017년 10월호</a></td>
               <td>김현우</td>
-              <td>2018.01</td>
+              <td>2017.10</td>
             </tr>
             <tr>
               <th scope="row">3</th>
-              <td>2017.11</td>
+              <td><a href="./pdf/201711.pdf">2017년 11월호</a></td>
               <td>김현우</td>
-              <td>2018.01</td>
+              <td>2017.11</td>
             </tr>
             <tr>
               <th scope="row">4</th>
@@ -205,9 +171,9 @@
         <div class="row">
           <div class="col-sm-4">
             <h2 id="custom-footer-title">RETURN</h2>
-            <a href="./index.html">홈</a>
+            <a href="./">홈</a>
             <a href="mailto:name@email.com">메일</a>
-            <a href="./rule.html#privacy">개인정보처리방침</a>
+            <a href="./rule#privacy">개인정보처리방침</a>
             <p style="color:gray">© 2017 by Return, Created By Return Web Developer</p>
           </div>
           <div class="col-sm-4"><br>

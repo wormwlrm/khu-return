@@ -5,3 +5,7 @@ body{
 .jumbotron{
   background-image:url("../img/board_background.jpg");
 }
+
+td a{
+  color: black!important;
+}
