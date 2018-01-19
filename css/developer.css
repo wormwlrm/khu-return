@@ -22,3 +22,26 @@ a:focus {
 .col-xs-12{
   margin-bottom: 30px;
 }
+
+
+a:focus {
+  outline : none;
+}
+/*Parcitle ground 플러그인 시작입니다.*/
+#particles {
+  width: 100%;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  background: #e7e7e7;
+}
+section.about {
+  position: absolute;
+  left: 0;
+  top: 33%;
+  padding: 0 10px;
+  width: 100%;
+  text-align: center;
+}
+
+/*Particle ground 플러그인 종료입니다.*/
