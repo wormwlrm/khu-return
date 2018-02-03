@@ -15,6 +15,10 @@ a:focus {
     width:100%;
 }
 
+.custom_open_source_image p{
+  text-align: center;
+}
+
 .custom-developer{
   margin-bottom: 50px;
 }
@@ -27,7 +31,7 @@ a:focus {
 a:focus {
   outline : none;
 }
-/*Parcitle ground ÇÃ·¯±×ÀÎ ½ÃÀÛÀÔ´Ï´Ù.*/
+/*Parcitle ground ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.*/
 #particles {
   width: 100%;
   height: 250px;
@@ -44,4 +48,4 @@ section.about {
   text-align: center;
 }
 
-/*Particle ground ÇÃ·¯±×ÀÎ Á¾·áÀÔ´Ï´Ù.*/
+/*Particle ground ï¿½Ã·ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½Ô´Ï´ï¿½.*/
